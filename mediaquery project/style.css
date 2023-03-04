@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #636161;
+}
+.p1,.p2{
+    font-size: larger;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.ur{
+    padding-top: 50px;
+}
+.f11,.f21,.f31,.f41{
+    width: 250px;
+}
+.img{
+     width: 350px; 
+     height: 300px; 
+}
+main{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.a1,.a3{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+.f12,.f32{
+    text-align: center;
+    color: white;
+}
+.f22,.f42{
+    position: relative;
+    left: 100px;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    /* padding-left: 5px; */
+    text-decoration: none;
+    position: relative;
+    left: 17px;
+    
+}
+a,h1{
+    color: white;
+    text-decoration: none;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p3{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.con1{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+.p1{
+    font-size: 35px;
+    color: white;
+}
+.p2{
+    font-size: 30px;
+color: yellowgreen;}
+
+@media (max-width:992px){
+    header{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+    }
+    .ul{
+        position: relative;
+        top: 35px;
+        z-index: 0;
+        
+    }
+    .p3{
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 70px;
+        
+    }
+    .a1,.a3{
+        position: relative;
+        right: 329px;    }
+    .pro{
+        position: relative;
+        top: 80px;
+
+    }
+    footer{
+        position: relative;
+        top: 85px;
+    }
+    ul{
+        padding-top: 10px;
+    }
+
+}
